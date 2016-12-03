@@ -12,7 +12,26 @@
 		9D98823F19BC69CA00B790C6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D98823E19BC69CA00B790C6 /* ViewController.swift */; };
 		9D98824419BC69CA00B790C6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D98824319BC69CA00B790C6 /* Images.xcassets */; };
 		9D98825A19BC69F600B790C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D98825919BC69F600B790C6 /* Main.storyboard */; };
+		B59277801DF2700D00824776 /* Gifu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B592777F1DF2700D00824776 /* Gifu.framework */; };
+		B59277811DF2700D00824776 /* Gifu.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B592777F1DF2700D00824776 /* Gifu.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B59277841DF271DF00824776 /* EmptyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59277831DF271DF00824776 /* EmptyViewController.swift */; };
+		B59277871DF2A5C100824776 /* earth.gif in Resources */ = {isa = PBXBuildFile; fileRef = B59277851DF2A5C100824776 /* earth.gif */; };
+		B59277881DF2A5C100824776 /* mugen.gif in Resources */ = {isa = PBXBuildFile; fileRef = B59277861DF2A5C100824776 /* mugen.gif */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B59277821DF2700D00824776 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				B59277811DF2700D00824776 /* Gifu.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		007380221B279644008DAD5C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../Default-568h@2x.png"; sourceTree = "<group>"; };
@@ -22,6 +41,10 @@
 		9D98823E19BC69CA00B790C6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = classes/ViewController.swift; sourceTree = "<group>"; };
 		9D98824319BC69CA00B790C6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		9D98825919BC69F600B790C6 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		B592777F1DF2700D00824776 /* Gifu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Gifu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B59277831DF271DF00824776 /* EmptyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmptyViewController.swift; sourceTree = "<group>"; };
+		B59277851DF2A5C100824776 /* earth.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = earth.gif; sourceTree = "<group>"; };
+		B59277861DF2A5C100824776 /* mugen.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = mugen.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B59277801DF2700D00824776 /* Gifu.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,6 +62,9 @@
 		9D98822E19BC69CA00B790C6 = {
 			isa = PBXGroup;
 			children = (
+				B59277851DF2A5C100824776 /* earth.gif */,
+				B59277861DF2A5C100824776 /* mugen.gif */,
+				B592777F1DF2700D00824776 /* Gifu.framework */,
 				9D98823919BC69CA00B790C6 /* Source */,
 				9D98823819BC69CA00B790C6 /* Products */,
 			);
@@ -59,6 +86,7 @@
 				9D98825919BC69F600B790C6 /* Main.storyboard */,
 				9D98824319BC69CA00B790C6 /* Images.xcassets */,
 				9D98823A19BC69CA00B790C6 /* Supporting Files */,
+				B59277831DF271DF00824776 /* EmptyViewController.swift */,
 			);
 			name = Source;
 			path = demo;
@@ -83,6 +111,7 @@
 				9D98823319BC69CA00B790C6 /* Sources */,
 				9D98823419BC69CA00B790C6 /* Frameworks */,
 				9D98823519BC69CA00B790C6 /* Resources */,
+				B59277821DF2700D00824776 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,6 +161,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				9D98824419BC69CA00B790C6 /* Images.xcassets in Resources */,
+				B59277871DF2A5C100824776 /* earth.gif in Resources */,
+				B59277881DF2A5C100824776 /* mugen.gif in Resources */,
 				007380231B279644008DAD5C /* Default-568h@2x.png in Resources */,
 				9D98825A19BC69F600B790C6 /* Main.storyboard in Resources */,
 			);
@@ -144,6 +175,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B59277841DF271DF00824776 /* EmptyViewController.swift in Sources */,
 				9D98823F19BC69CA00B790C6 /* ViewController.swift in Sources */,
 				9D98823D19BC69CA00B790C6 /* AppDelegate.swift in Sources */,
 			);
